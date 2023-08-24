@@ -1,0 +1,65 @@
+nav ul li a:hover{
+  color: orangered;
+  border-bottom: 1px solid orangered;
+}
+
+nav ul li a{
+  text-decoration: none;
+  font-family: "Segoe UI", sans-serif;
+  color: #191919;
+  font-weight: 600;
+  padding: 8px;
+  transition: all;
+  transition-duration: 300ms;
+  border-bottom: 1px solid black;
+}
+
+
+nav div img {
+  width: 50px;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #ced7d8;
+}
+
+#projects {
+  background-color: #464646;
+  
+}
+
+h2{
+  color: #3a7bb1;
+}
+
+#about{
+  background-color: #ced7d8;
+}
+
+section {
+  padding-top: 5rem;
+  background-color: #85d916;
+}
+
+#contact{
+ background-color: #ced7d8;
+}
+
+.card {
+  transform: translateX(0px);
+  animation: float 6s ease-out infinite;
+}
+
+@keyframes float{
+  0%{
+    transform: translateY(0px);
+  }
+  50%{
+    transform: translateY(-60px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}
+
